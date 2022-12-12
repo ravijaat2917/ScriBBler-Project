@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#postslist-body{
+    background-color: antiquewhite;
+}
+
+/* Header Css */
+#logo{
+    font-family: 'Montez', cursive; 
+    font-size: 25px;
+    margin:20px 0px 0px 20px ;
+    color: blue;
+}
+#slogan{
+    margin-left: 20px ;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.sign-buttons{
+    margin: 40px 40px 0px 0px;
+}
+
+.sign-buttons button{
+    background-color: blue;
+    height: 35px;
+    width: 70px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*  Body Css */
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    /* margin:120px 130px; */
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 50%;
+    width: 30%;
+    margin: 50px 150px 0px;
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+.user-name{
+    background-color: white;
+    padding-top: 43px;
+    color: rgb(70, 67, 61);
+    width: 250px;
+}
+#icon{
+    cursor: pointer;
+}
+.content{
+    background-color: rgb(210, 204, 204);
+}
+.upper-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0px 10px;
+    color: rgb(109, 111, 112);
+}
+.lower-container{
+    padding: 10px 10px 0px 10px;
+   line-height: 20px;
+   height: 60px;
+   overflow: hidden;
+   text-align: left;
+}
+#elipsis{
+    padding-right: 13px;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+#odd-block{
+    display: flex;
+    justify-content: center;
+}

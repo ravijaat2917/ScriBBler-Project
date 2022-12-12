@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.index-body{
+    background-image:url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+    font-family: 'Montez', cursive; 
+    font-size: 25px;
+    margin:20px 0px 0px 20px ;
+    color: blue;
+}
+#slogan{
+    margin-left: 20px ;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.sign-buttons{
+    margin: 40px 40px 0px 0px;
+}
+
+.sign-buttons button{
+    background-color: blue;
+    height: 35px;
+    width: 70px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.modal{
+  position: fixed;
+  z-index: 1;
+  padding-top: 225px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: white;
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-content{
+    background-color: white;
+    height: min-content;
+    padding: 0px 10px;
+}
+.myModalCreatePost{
+    height: 100%;
+}
+.close-tab{
+    display: inline-block;
+    cursor: pointer;
+    block-size: auto;
+}
+
+form{
+    margin: 15px 2px;
+    display: flex;
+    flex-direction: column
+}
+label{
+    margin: 15px 0px 0px 0px;
+    font-size: medium;
+}
+input{
+    margin: 5px 0px 0px;
+    padding: 5px;
+}
+.form-btn{
+    margin: 20px 0px 2px 0px;
+    font-size: medium;
+    background-color: rgb(55, 240, 117);
+    border: none;
+    padding: 3px 0px 3px;
+    cursor: pointer;
+}
+
+.myModalSignUp-In{
+    display: flex;
+    justify-content: center;
+}
+
+#below-signIn{
+    margin: 12px;
+    text-align: center;
+    font-size: smaller;
+}
+.modal-layout{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    margin: 10px 0px;
+    font-size: large;
+    text-align: center;
+}
+.createModalContent{
+    background-color: white;
+    padding: 30px;
+    width: 60%;
+    align-items: center;
+    margin: 0px 20%;
+}
+.modalHeading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.create-btn{
+    margin: 20px 45%  0px;
+    font-size: medium;
+    background-color: rgb(55, 240, 117);
+    border: none;
+    padding: 3px 0px 3px;
+    cursor: pointer;
+    text-align: center;
+    width: 110px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25%;
+}
+
+#all-posts , #create-post{
+    background-color: darkgoldenrod;
+    margin: 7px;
+    height: 40px;
+    width: 100px;
+    border-color: white;
+    cursor: pointer;
+    text-align: center;
+}
