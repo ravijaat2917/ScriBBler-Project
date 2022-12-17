@@ -1,0 +1,80 @@
+#mainContainer{
+    margin: 20px 100px ;
+}
+#heading{
+    margin-top: 30px;
+    text-align: center;
+}
+.cmntLine{
+    margin-top: 6px;
+}
+#userName-EditBtn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#userName{
+    font-weight:normal;
+    font-size: large;
+    font-family: 'Roboto Mono', monospace;
+}
+#edit-btn{
+    display: block;
+    margin-top: 0;
+    width: 70px;
+    height: 25px;
+    padding-top: 10%;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(241, 77, 77);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 2px rgb(246, 166, 166);
+}
+#postContent{
+    margin-top: 10px;
+}
+.btn{
+    display: block;
+    margin-top: 20px;
+    padding: 0px 4px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(241, 77, 77);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 2px rgb(246, 166, 166);
+}
+#likeLine{
+    margin-top: 10px;
+}
+#txtArea{
+    margin-top: 25px;
+    line-height: 20px;
+    height: 80px;
+    width: 70%;
+}
+h4{
+    margin-top: 20px;
+}
+#comments{
+    margin-top: 10px;
+}
+.cmntLine{
+    background-color: rgb(220, 227, 220);
+    background-clip: padding-box rgb(220,227,220);
+    padding: 10px 5px;
+    width: 69.5%;
+}
+#cmnt{
+    width: 100%;
+    background-color: white;
+    word-wrap: break-word;
+}
+#borderChange{
+    border-width: 10px;
+    border-color: pink;
+}

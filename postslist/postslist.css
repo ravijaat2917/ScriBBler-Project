@@ -63,7 +63,7 @@ header{
     color: rgb(70, 67, 61);
     width: 250px;
 }
-#icon{
+.icon{
     cursor: pointer;
 }
 .content{
@@ -88,7 +88,16 @@ header{
     justify-content: end;
     cursor: pointer;
 }
-#odd-block{
+
+#YesNoBtn{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin:5px 15px 15px;
+}
+.ynBtn{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
 }
